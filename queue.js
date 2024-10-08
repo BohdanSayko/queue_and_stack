@@ -12,7 +12,7 @@ class Queue{
     }
 
     peek(){
-        console.log(this.array[0]);
+        return this.array[0];
     }
 }
 
@@ -22,4 +22,4 @@ for(let i = 1; i <= 10; i++){
     queue.enqueue(i);
 }
 queue.dequeue();
-queue.peek();
+console.log(queue.peek());
