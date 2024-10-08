@@ -12,7 +12,7 @@ class Stack{
     }
 
     peek(){
-       console.log(this.arr[this.arr.length - 1]);
+       return this.arr[this.arr.length - 1];
     }
 }
 
@@ -22,4 +22,4 @@ for(let i = 1; i < 10; i++){
 	stack.push(i);
 }
 stack.pop();
-stack.peek();
+console.log(stack.peek());
